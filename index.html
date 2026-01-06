@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="探索互動式萬聖節派對專案，展現響應式設計、動畫與網頁開發技術。沉浸在萬聖節的詭譎氛圍之中。">
+        content="インタラクティブなハロウィンパーティーのプロジェクトを探検し、レスポンシブデザイン、アニメーション、Web開発の技術を紹介。不気味なハロウィンの雰囲気に浸ろう。">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/logo.png">
 
     <!-- Page Title -->
-    <title>視差捲動網站</title>
+    <title>パララックススクロールサイト</title>
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="style.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- Open Graph meta tags for image sharing -->
-    <meta property="og:title" content="視差捲動網站">
+    <meta property="og:title" content="パララックススクロールサイト">
     <meta property="og:description"
-        content="探索互動式萬聖節派對專案，沉浸在萬聖節的詭譎氛圍之中。">
+        content="インタラクティブなハロウィンパーティーのプロジェクトを探検し、ハロウィンの不気味な雰囲気に浸ろう。">
     <meta property="og:image" content="https://drive.google.com/uc?id=1GFbBHTi7w8weRVqLJ7bkofezEEGg4U30">
     <meta property="og:type" content=”website” />
     <!-- <meta property="og:url" content="https://parallax-website-by-vineet.netlify.app/"> -->
@@ -32,9 +32,9 @@
     <header id="header">
         <a href="#" class="logo">Parallax0</a>
         <ul>
-            <li><a href="#" class="active">首頁</a></li>
-            <li><a href="#sec">關於</a></li>
-            <li><a href="#footer">聯絡</a></li>
+            <li><a href="#" class="active">ホーム</a></li>
+            <li><a href="#sec">概要</a></li>
+            <li><a href="#footer">連絡先</a></li>
         </ul>
     </header>
 
@@ -44,11 +44,11 @@
         <img src="images/land/sun.png" id="sun">
         <img src="images/land/mountains.png" id="mountains" class="wallpaper">
         <img src="images/land/cloud.png" id="cloud">
-        <h2 id="text"><span>擁抱刺激與驚奇</span><br>萬聖節派對</h2>
+        <h2 id="text"><span>スリルと驚きを抱きしめて</span><br>ハロウィンパーティー</h2>
         <img src="images/land/forest.png" id="forest">
         <img src="images/land/bird1.png" id="bird1">
         <img src="images/land/bird2.png" id="bird2">
-        <a href="#sec" id="explore">開始探索</a>
+        <a href="#sec" id="explore">探検を始める</a>
         <img src="images/land/rocks.png" id="rocks">
         <img src="images/land/splash.png" id="splash">
         <img src="images/land/water.png" id="water">
@@ -68,51 +68,51 @@
         <img src="images/sea/sea8.png" id="sea8" class="undersea">
 
         <!-- Text Content here -->
-        <h2>視差捲動效果</h2>
+        <h2>パララックススクロールの効果</h2>
         <div id="name">作者：Vineet Kumar</div>
 
         <br>
 
         <div class="glass">
-            <h3>什麼是視差捲動？</h3>
+            <h3>パララックススクロールとは？</h3>
             <p>
-                視差捲動是一種網頁設計技巧，讓網站背景比前景移動得更慢。
-                當使用者向下捲動畫面時，會產生類似 3D 的效果，增加畫面的景深，帶來更具沉浸感的瀏覽體驗。
-                視差效果是建立在視覺錯覺之上：因為人眼會將較靠近的物體看得比遠處物體更大，
-                所以我們會覺得遠處的物體移動得比較慢。這種錯覺被廣泛運用在各式媒介中，以營造更真實的效果。
-                早期它被用在傳統動畫中，例如迪士尼的《白雪公主與七矮人》，以及像《超級瑪利歐》這類的電玩遊戲。
-                隨著 CSS 和 HTML 的發展，視差效果才逐漸演變成今日網頁設計中的常見手法。
+                パララックススクロールは、背景を前景よりゆっくり動かすことで奥行きを演出する
+                Webデザイン手法です。スクロールに合わせて疑似3Dのような深みが生まれ、
+                より没入感のある体験を提供します。視覚の錯覚を利用しており、遠くの物体ほど
+                動きが遅く見えることを応用しています。この効果は古くからさまざまな媒体で使われ、
+                ディズニーの『白雪姫』や『スーパーマリオ』のようなゲームでも見られました。
+                CSS と HTML の進化とともに、現在ではWebデザインで広く用いられています。
                 <br><br>
-                最早在瀏覽器中實作視差捲動的案例之一，是前端工程師 Glutnix 在 2007 年於部落格中分享的範例，
-                其中包含了使用 JavaScript 與 CSS 2 的示範程式碼，並支援當時的 Internet Explorer 6 等瀏覽器。
-                不過直到 2011 年，隨著 HTML5 與 CSS 3 的出現，這項技術才真正受到網頁設計師的青睞。
-                支持者認為，視差效果是擁抱網頁流動性的一種簡單方式，常被用來增加使用者互動，並提升整體瀏覽體驗。
-                然而，普渡大學在 2013 年發表的一項研究結果指出：「雖然視差捲動提升了部分使用者體驗層面，但並不代表整體體驗一定會更好」。
+                ブラウザでの初期の実装例の一つは、開発者 Glutnix が 2007 年にブログで公開した
+                JavaScript と CSS 2 を使ったデモでした。当時の IE6 などでも動作しましたが、
+                2011 年に HTML5 と CSS3 が登場してから本格的に人気となりました。
+                支持者は「Web の流動性を活かすシンプルな方法」としてパララックスを推し、
+                背景を活用してユーザーのエンゲージメントや体験を高めています。
+                ただし 2013 年のパデュー大学の研究では、「一部の体験は向上するが、
+                全体のユーザー体験が必ずしも良くなるとは限らない」と報告されています。
             </p>
         </div>
 
         <br>
 
         <div class="glass">
-            <h3>為什麼要使用視差圖像？</h3>
+            <h3>なぜパララックス画像を使うのか？</h3>
             <ul>
-                <p>設計師應該嘗試視差圖像的兩個主要原因如下：</p>
+                <p>デザイナーがパララックスを試すべき主な理由は2つあります。</p>
                 <li>
-                    <h4>有助於說故事</h4>
+                    <h4>ストーリーを伝えやすい</h4>
                     <p>
-                        視差圖像非常適合用來說故事。好的設計在於溝通——當我們設計網站時，
-                        希望能與訪客交流，並為產品、服務或品牌講出一個吸引人的故事。
-                        視差捲動能讓訪客沉浸在獨特的線上體驗中，
-                        甚至可以只用一頁式網站，就完整呈現你的品牌或產品故事，而不需要跳轉到多個頁面。
+                        パララックスは物語性の演出に最適です。良いデザインはコミュニケーションそのもの。
+                        製品やサービス、ブランドの魅力を語り、訪問者に没入感のある体験を届けられます。
+                        1ページの中でストーリー全体を見せることもでき、複数ページを移動する手間を減らします。
                     </p>
                 </li>
                 <li>
-                    <h4>提升使用者參與度</h4>
+                    <h4>ユーザーの滞在と参加を高める</h4>
                     <p>
-                        視差圖像也能用來提高使用者的互動與停留時間。
-                        在網頁設計中，降低跳出率是一個很重要的目標。跳出率指的是使用者只看一頁就關閉分頁或按下「返回」的比例。
-                        過高的跳出率會影響搜尋排名，因此任何可以降低跳出率的作法都值得嘗試。
-                        精心設計的視差頁面，能提供更具動態感的體驗，讓使用者願意在頁面上停留更久。
+                        パララックスは動きのある体験を提供し、ページ離脱（バウンス）を抑える助けになります。
+                        滞在時間が伸びれば検索評価にも良い影響が期待でき、丁寧に作り込んだページほど
+                        ユーザーは長く楽しんでくれます。
                     </p>
                 </li>
             </ul>
@@ -121,29 +121,27 @@
         <br>
 
         <div class="glass">
-            <h3>如果你想在網站加入視差捲動效果，可以參考以下幾點建議：</h3>
+            <h3>サイトにパララックス効果を入れるなら、以下を意識しましょう。</h3>
             <ul>
                 <li aria-level="1">
-                    <h4>適度、選擇性地使用</h4>
+                    <h4>使いどころを絞る</h4>
                     <p>
-                        視差捲動在適量使用時效果最佳，而不是每個頁面、每個區塊都套用。
-                        你可以只在頁首、標題區或首頁關鍵區塊使用視差效果，
-                        目的是強化網站設計，而不是分散使用者的注意力。
+                        すべてのページ・要素に入れるより、ヘッダーやメインビジュアルなど
+                        重点に限定したほうが効果的です。デザインを強めつつ、注意を散らさないようにしましょう。
                     </p>
                 </li>
                 <li aria-level="1">
-                    <h4>重視圖片壓縮</h4>
+                    <h4>画像をしっかり圧縮する</h4>
                     <p>
-                        視差捲動通常會使用多張圖片或媒體檔案搭配 CSS 來營造景深效果。
-                        因此務必要注意圖片壓縮與載入效能，避免因為檔案過大、載入過慢而影響整體使用體驗。
+                        パララックスでは複数の画像やメディアを扱うため、容量や読み込み速度に注意。
+                        過度に重い画像はパフォーマンスを落とし、体験を損ねます。
                     </p>
                 </li>
                 <li aria-level="1">
-                    <h4>善用色彩層次</h4>
+                    <h4>色のレイヤーを活用する</h4>
                     <p>
-                        視差捲動不只是前景與背景的位移關係，色彩也是很重要的一環。
-                        你可以在背景使用較低飽和度的顏色，在前景則採用更鮮明的色彩，
-                        進一步強化畫面的層次與空間感。
+                        前景と背景の動きだけでなく、色彩設計も大事です。背景には落ち着いた色、
+                        前景には鮮やかな色を置くことで、奥行きとメリハリがいっそう強まります。
                     </p>
                 </li>
             </ul>
@@ -170,7 +168,7 @@
 
     <!-- Code for the footer -->
     <div class="footer" id="footer">
-        歡迎追蹤我的社群：
+        フォローしてね：
         <div class="wrapper">
             <div class="social-media">
                 <div class="icon">
@@ -194,10 +192,10 @@
                 <div class="icon">
                     <i class="fa-solid fa-link"></i>
                 </div>
-                <span>作品集</span>
+                <span>ポートフォリオ</span>
             </div>
         </div>
-        <span>本網站由 Vineet Kumar 製作 ❤️<br>SSN College of Engineering 資訊工程四年級學生</span>
+        <span>このサイトは Vineet Kumar が制作 ❤️<br>SSN College of Engineering 情報工学科4年</span>
     </div>
 
     <!-- The button to scroll back to top -->
